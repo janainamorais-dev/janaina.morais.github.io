@@ -1,87 +1,87 @@
-/* ===== BODY E TIPOGRAFIA ===== */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #020018;
-  color: #ffffff;
+  background: #02001a;
+  color: #d5ddff;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
 
-/* ===== HEADER ===== */
+
 header {
-  background: linear-gradient(90deg, #000e4e, #000000);
+  background: linear-gradient(90deg, #010d41, #05060f);
   padding: 30px 20px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 11, 73, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 1, 3, 0.5);
 }
 
 header h1 {
   margin: 0;
   font-size: 36px;
-  color: #3e7bff;
+  color: #3ea2ff;
 }
 
 header p {
   margin: 5px 0 15px;
-  color: #ffffff;
+  color: #d5ddff
 }
 
-/* ===== NAVEGAÇÃO ===== */
+
 nav a {
   margin: 0 10px;
-  color: #9bbbff;
+  color: #3ea2ff;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s, transform 0.2s;
 }
 
 nav a:hover {
-  color: #389b38;
+  color: #47ff41;
   transform: scale(1.05);
 }
 
-/* ===== SEÇÕES ===== */
+
 section {
   padding: 50px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-/* ===== TÍTULOS ===== */
+
 h2 {
-  color: #38bdf8;
-  font-size: 32px;
+  color: #000c79;
+  font-size: 30px;
   margin-bottom: 25px;
 }
 
-/* ===== PARÁGRAFOS ===== */
+
 p {
-  color: #cbd5e1;
+  color: #c7d2fe;
   margin-bottom: 15px;
 }
 
-/* ===== CARDS ===== */
+
 .card {
-  background: #020617;
+  background: #00092e;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(1, 59, 250, 0.349);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 20px rgba(0, 58, 85, 0.459);
 }
 
-/* ===== BOTÕES E LINKS DE PROJETO ===== */
+
 .card a {
   display: inline-block;
   padding: 10px 15px;
-  background: #389b38;
-  color: #000000;
+  background: #003d00;
+  color: #c7d2fe;
   font-weight: bold;
   border-radius: 6px;
   text-decoration: none;
@@ -89,15 +89,14 @@ p {
 }
 
 .card a:hover {
-  background: #0caf0c;
+  background: #009200b4;
   transform: scale(1.05);
 }
 
-/* ===== SKILLS ===== */
 .skill {
   display: flex;
-  flex-wrap: wrap; /* permite quebrar linha */
-  gap: 12px; /* espaçamento entre os spans */
+  flex-wrap: wrap; 
+  gap: 12px; 
 }
 
 .skills-container {
@@ -134,17 +133,16 @@ p {
   to { width: var(--width); }
 }
 
-/* ===== RODAPÉ ===== */
+
 footer {
   text-align: center;
   padding: 20px;
-  background: #000218;
+  background: #00021bbd;
   font-size: 14px;
-  color: #ffffff;
-  box-shadow: 0 -4px 10px #00051480;
+  color: #c7d2fe;
+  box-shadow: 0 -4px 10px #000a2980;
 }
 
-/* ===== RESPONSIVIDADE ===== */
 @media (max-width: 600px) {
   section {
     padding: 30px 15px;
@@ -161,14 +159,14 @@ footer {
 }
 
 .video-thumb {
-  width: 200px;   /* largura menor da miniatura */
-  height: auto;   /* mantém proporção */
+  width: 200px;  
+  height: auto;   
   cursor: pointer;
   transition: transform 0.3s;
 }
 
 .video-thumb:hover {
-  transform: scale(1.05); /* leve efeito de zoom ao passar o mouse */
+  transform: scale(1.05); 
 }
 
 
@@ -204,9 +202,31 @@ footer {
   position: absolute;
   top: 20px;
   right: 30px;
-  color: white;
+  color: #c7d2fe(255, 255, 255);
   font-size: 30px;
   cursor: pointer;
   z-index: 1010;
 }
+#certificacoes h2 {
+  color: #000c79; /* azul vibrante */
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
 
+.certificacoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.certificacoes {
+  background-color: #060055;  /* azul escuro */
+  color: #c7d2fe;             /* azul claro */
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}

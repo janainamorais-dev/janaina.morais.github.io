@@ -1,6 +1,6 @@
 console.log("%cPortfólio da Janaína carregado com sucesso 🚀", "color: #22c55e; font-size: 16px; font-weight: bold;");
 const videoThumb = document.getElementById('videoThumb');
-const modal = document.getElementById('videoModal');
+const modal = document.getElementById ('videoModal');
 const videoFullscreen = document.getElementById('videoFullscreen');
 const closeBtn = document.querySelector('.close');
 
